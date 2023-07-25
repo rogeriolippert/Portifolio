@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  background: #FFFFFF url("img/backgraound.png") no-repeat left top fixed;
+}
+.navbar{
+  background-color: #5b12ed; /* Cor de fundo da barra */ 
+  padding: 10px; /* Espaçamento interno para os ícones/link */
+  display: flex; /* Para alinhar horizontalmente os ícones/link */
+  justify-content: flex-end; /* Alinha os ícones/link à direita */
+
+position: fixed; /* Fixa a barra no topo */
+  top: 0; /* Posiciona no topo */
+  left: 0; /* Alinha à esquerda */
+  right: 0; /* Alinha à direita */
+}
+
+/* Estilizando os links dos ícones das redes sociais */
+.navbar a {
+  margin-right: 10px; /* Espaçamento entre os ícones/link */
+  text-decoration: none; /* Remove sublinhado nos links */
+  color: #fff; /* Cor do texto (neste caso, branco) */
+}
+
+/* Estilizando os ícones (caso estejam em formato de imagem) */
+.navbar img {
+width: 30px; /* Tamanho do ícone (ajuste conforme necessário) */
+  height: 30px;
+}
+
+h1{
+margin-top: 100px; /* Exemplo de margem superior para mostrar o conteúdo abaixo da barra fixa */
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 45px;
+margin-left: 20px;
+}
+
+h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 20px;
+}
+
+p{
+margin-left: 20px;
+}
+
+img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.round-button {
+  display: inline-block;
+  width: 300px;
+  margin-left: 90px;
+  margin-top: 5px; 
+  margin-bottom: 5px;
+  height: 50px;
+  border-radius: 5%;
+  background-color: #007bff89; 
+  position: relative;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.arrow {
+  position: absolute;
+  margin-left: 90px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(315deg);
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-left: none;
+  border-top: none;
+}
+
+footer {
+  /* Posiciona o footer fixamente na parte inferior da página */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px; /* Ajuste a altura do footer conforme necessário */
+    margin-top: 5px;
+    background-color: #333;
+    text-align: center;
+    padding-top: 10px; /* Espaçamento interno do footer */
+  }
